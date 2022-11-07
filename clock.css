@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #12181b;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#clock {
+  font-family: "Orbitron", sans-serif;
+  font-size: 5vw;
+  background: #05a562;
+  /* have to read linear gradient */
+  color: #fff;
+  border-radius: 7px;
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+}
+.controls {
+  margin-top: 16px;
+}
+.button {
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.set-alarm {
+  background-color: #498afb;
+}
+
+.clear-alarm {
+  background-color: #ff3860;
+}
+.snooze-alarm {
+  background: grey;
+}
