@@ -52,6 +52,7 @@ function snoozeAlarm() {
   if (counter < 3) {
     if (alarmRing) {
       audio.pause();
+      alert("Alarm Snoozed for 5 minutes");
       alarmTimeOut = setTimeout(() => audio.play(), 300000);
     }
     counter++;
